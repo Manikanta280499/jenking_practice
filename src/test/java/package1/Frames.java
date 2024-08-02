@@ -3,6 +3,7 @@ package package1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Frames {
@@ -22,6 +23,7 @@ public class Frames {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		Assert.assertTrue(false);
 		w.quit();
 	}
 	
